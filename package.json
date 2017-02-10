@@ -1,0 +1,36 @@
+{
+  "name": "ddry-selenium-firefox",
+  "version": "1.0.0",
+  "description": "FireFox Selenium driver wrapped ready to use with ddry",
+  "scripts": {
+    "test": "make coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ddry/selenium-firefox"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "keywords": [
+    "ddry",
+    "mocha",
+    "selenium",
+    "webdriver",
+    "firefox"
+  ],
+  "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ddry-selenium-matchers": "^1.0.1",
+    "geckodriver": "^1.4.0",
+    "selenium-webdriver": "^3.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.16",
+    "ddry-mocha": "3.2.0-d0.0.4",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}
